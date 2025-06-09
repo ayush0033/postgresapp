@@ -1,0 +1,18 @@
+{
+  "name": "PostgreSQL",
+  "description": "PostgreSQL interaction app",
+  "actions": [
+    {
+      "name": "Run SQL Query",
+      "description": "Execute a SQL query on PostgreSQL",
+      "parameters": [
+        { "name": "host", "type": "string", "description": "DB Host" },
+        { "name": "port", "type": "number", "description": "DB Port" },
+        { "name": "dbname", "type": "string", "description": "Database Name" },
+        { "name": "user", "type": "string", "description": "Username" },
+        { "name": "password", "type": "password", "description": "Password" },
+        { "name": "query", "type": "string", "description": "SQL Query to run" }
+      ]
+    }
+  ]
+}
